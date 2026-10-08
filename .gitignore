@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+artifacts/
+checkpoints/
+logs/
+results*/
+*.pt
+*.pth
+*.ckpt
+*.log
+*.csv
+*.npz
+!data/example_synthetic.npz
