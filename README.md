@@ -6,12 +6,19 @@ Official minimal implementation of MGTF-Net for multi-aircraft trajectory predic
 
 This package preserves the formal ungated main model: 9D input projection, shared motion LSTM, scene-isolated fully connected multi-head GATv2 with relative 3D edges and self edges, graph LSTM, temporal Transformer, full-history encoder, four-branch fusion, continuous autoregressive decoding, and multi-horizon position-based loss.
 
+## Framework
+
+![MGTF-Net framework](assets/mgtf_net_framework.png)
+
+MGTF-Net framework overview. Trajectory illustrations are schematic; this figure does not distribute the proprietary trajectory datasets.
+
 ## Included
 
 - MGTF-Net model architecture and training loss
 - Training and inference execution demos
 - Six evaluation metrics in meters
 - Artificial Cartesian synthetic data and its standalone generator
+- MGTF-Net framework figure
 
 ## Not included
 

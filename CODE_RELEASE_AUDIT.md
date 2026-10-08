@@ -8,6 +8,7 @@ Minimal reproducible implementation of the formal ungated MGTF-Net main model. E
 
 - `.gitignore`: excludes local demo checkpoints, caches, logs, results, and environment files
 - `README.md`: model, public interface, units, limitations, and quick start
+- `assets/mgtf_net_framework.png`: author-provided framework schematic, copied without modification and displayed in the README
 - `requirements.txt`: NumPy and PyTorch only
 - `config.py`: formal architecture and training configuration
 - `model/__init__.py`: main-model exports
